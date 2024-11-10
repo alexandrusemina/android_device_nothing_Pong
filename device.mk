@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946639017191810.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946639017191810.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.common-V2-ndk_platform.vendor \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     android.hardware.identity-V3-ndk_platform.vendor \
     init.qti.display_boot.rc \
@@ -170,7 +169,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0.vendor \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \
-    vendor.qti.hardware.display.config-V2-ndk_platform.vendor \
     vendor.qti.hardware.display.demura-service \
     vendor.qti.hardware.display.mapper@1.1.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor \
@@ -208,7 +206,6 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss-V1-ndk_platform.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss@2.1.vendor
@@ -271,11 +268,7 @@ PRODUCT_PACKAGES += \
 
 # Keymint
 PRODUCT_PACKAGES += \
-    android.hardware.hardware_keystore.xml \
-    android.hardware.security.keymint-V1-ndk_platform.vendor \
-    android.hardware.security.rkp-V3-ndk.vendor \
-    android.hardware.security.secureclock-V1-ndk_platform.vendor \
-    android.hardware.security.sharedsecret-V1-ndk_platform.vendor
+    android.hardware.hardware_keystore.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml \
@@ -551,7 +544,6 @@ PRODUCT_PACKAGES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    android.media.audio.common.types-V2-cpp \
     libnl \
     libpng.vendor \
     libwfdaac_vendor
