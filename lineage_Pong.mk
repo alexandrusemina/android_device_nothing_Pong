@@ -33,4 +33,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=Pong \
     DeviceProduct=A065 \
     SystemDevice=Pong \
-    SystemName=Pong
+    SystemName=Pong \
+    RisingMaintaine="SeminaAlexandru(semialex16)" \
+    RisingChipset="Snapdragon® 8+ Gen 1"
+
+#RisingOS
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+RISING_MAINTAINER := SeminaAlexandru(semialex16)
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_HAS_UDFPS := true
